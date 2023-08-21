@@ -1,0 +1,15 @@
+digraph {
+	S
+	A
+	B
+	B1 [label=B]
+	A1 [label=A]
+	a
+	b
+	S -> A
+	S -> B
+	A -> B1
+	A -> A1
+	B1 -> b
+	A1 -> a
+}
